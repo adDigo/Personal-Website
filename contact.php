@@ -21,7 +21,7 @@
 			</div>
 			<div class = "contact-message">
 				<label class = "label2"> Message</label>
-				<textarea name = "message" rows = 5 cols = 50 required></textarea>
+				<textarea id="message"name = "message" rows = 5 cols = 50 required></textarea>
 			</div>
 			<input type="submit" value="Send">
 	</form>

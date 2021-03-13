@@ -82,6 +82,7 @@ nav #logo:hover{
 	bottom: 0;
 	width: 100%;
 	padding: 10px;
+	
 }
 
 
@@ -104,6 +105,33 @@ nav #logo:hover{
 	border-radius: 100%;
 }
 
+/*contact.php*/
+
+.container{
+	text-align: center;
+}
+input[type=text]{
+	border-radius: 5px;
+	border: 1px solid grey;
+}
+input[type=email]{
+	border-radius: 5px;
+	border: 1px solid grey;
+}
+textarea#message{
+	border-radius: 5px;
+	border: 1px solid grey;
+}
+
+.contact-info{
+	display: inline-block;
+	padding-bottom: 30px;
+}
+
+.label, .label2{
+	display:block;
+}
+
 
 /*sentSuccess.php*/
 .sent-message{
@@ -119,6 +147,8 @@ nav #logo:hover{
 	text-decoration: underline #801a00;
 
 }
+
+
 
 
 
