@@ -9,7 +9,7 @@
 	<?php include('header.html')?>
 	<div class = "container">
 		<h1>Contact</h1>
-		<form action = "sentSuccess.php" method = "POST" enctype="text/plain">
+		<form action = "sentSuccess.php" method = "POST">
 		
 			<div class = "contact-info">
 				<label class = "label">Name</label>
@@ -17,7 +17,7 @@
 			</div>
 			<div class = "contact-info">
 				<label class = "label">Email</label>
-				<input type = "text" name = "email" required>
+				<input type = "email" name = "email" required>
 			</div>
 			<div class = "contact-message">
 				<label class = "label2"> Message</label>
