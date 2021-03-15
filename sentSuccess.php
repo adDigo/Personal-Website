@@ -6,8 +6,15 @@
 </head>
 <body>
 	<?php include('header.html') ?>
+		
+	<div id = "success-wrapper">
+		<h2 class="sent-message">Your message has been sent successfully.</h2>
+		<h3 class = "sent-message">Thank you</h3>
+		<div id = "sent-message-link"><h4 class ="sent-message"> <a href = "home.php">Back to home</a></h4></div>
+	</div>
 
-	<?php
+	
+	<!-- php
 		if(!isset($_POST['submit']))
 
 		//collect data
@@ -23,20 +30,7 @@
 		$to = "adrienne.v.digo@gmail.com";
 		$headers = "From: $visitor_email \r\n";
 		
-		mail($to, $email_subject, $email_body, $headers); ?>
-		
-	<div id = "success-wrapper">
-		<h2 class="sent-message">Your message has been sent successfully.</h2>
-		<h3 class = "sent-message">Thank you</h3>
-		<div id = "sent-message-link"><h4 class ="sent-message"> <a href = "home.php">Back to home</a></h4></div>
-	</div>
-
-		
-
-
-
-
-
+		mail($to, $email_subject, $email_body, $headers); ?> -->
 
 	<?php include('footer.html') ?>
 </body>
