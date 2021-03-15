@@ -1,4 +1,3 @@
-<!-- NOTE TO SELF https://blog.mailtrap.io/php-email-contact-form/ --> 
 <!DOCTYPE html>
 <!--contact.php-->
 <html>
