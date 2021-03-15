@@ -13,25 +13,6 @@
 		<div id = "sent-message-link"><h4 class ="sent-message"> <a href = "index.php">Back to home</a></h4></div>
 	</div>
 
-	
-	<!-- php
-		if(!isset($_POST['submit']))
-
-		//collect data
-		$name = $_POST['name'];
-		$visitor_email = $_POST['email'];
-		$message = $_POST['message'];
-
-		$email_from = "adrienne.v.digo@gmail.com";
-		$email_subject = "*IMPORTANT*: Form Submission from Personal Website";
-		$email_body = "You have recieved a new message from: $name. \n". 
-					"Their email address is: $visitor_email\n". 
-					"Below is their message:\n $message".
-		$to = "adrienne.v.digo@gmail.com";
-		$headers = "From: $visitor_email \r\n";
-		
-		mail($to, $email_subject, $email_body, $headers); ?> -->
-
 	<?php include('footer.html') ?>
 </body>
 </html>

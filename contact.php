@@ -9,7 +9,6 @@
 	<div class = "container">
 		<h1>Contact</h1>
 		<form action = "formMailer.php" method = "POST">
-		
 			<div class = "contact-info">
 				<label class = "label">Name</label>
 				<input type = "text" name = "name" required>
