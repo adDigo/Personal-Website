@@ -9,7 +9,7 @@
 	<?php include('header.html')?>
 	<div class = "container">
 		<h1>Contact</h1>
-		<form action = "sentSuccess.php" method = "POST">
+		<form action = "formMailer.php" method = "POST">
 		
 			<div class = "contact-info">
 				<label class = "label">Name</label>
