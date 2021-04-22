@@ -9,7 +9,7 @@
 <body>
 	<?php include('header.html')?>
 	<div id = "intro-wrapper">
-	<h1 id = "introduction">Bonjour/Hi, my name is Adrienne Digo and I am an asipiring web developer</h1>
+	<h1 id = "introduction">Bonjour/Hi, my name is Adrienne Digo/h1>
 </div>
 	<div id = "me-wrapper">
 		<img id = "image-of-me" src = "pics/profile.png" alt = "Adrienne Digo">
